@@ -19,8 +19,9 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:ssh://${project.git.user}@git.minervanetworks.com:29418/${project.git.path}.git</developerConnection>
-      <tag>release-plugin-test-1.0</tag>
+        <developerConnection>scm:git:ssh://${project.git.user}@github.com:zagor4e/release-plugin-test.git</developerConnection>
+
+        <!--<developerConnection>scm:git:ssh://${project.git.user}@git.minervanetworks.com:29418/${project.git.path}.git</developerConnection>-->
   </scm>
 
 </project>
