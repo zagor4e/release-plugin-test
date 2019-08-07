@@ -11,7 +11,7 @@
 
     <groupId>com.minervanetworks</groupId>
     <artifactId>release-plugin-test</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <project.git.user>zagor4e</project.git.user>
@@ -20,6 +20,7 @@
 
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/zagor4e/release-plugin-test.git</developerConnection>
+    <tag>release-plugin-test-1.0</tag>
   </scm>
 
 </project>
