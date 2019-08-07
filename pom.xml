@@ -11,16 +11,15 @@
 
     <groupId>com.minervanetworks</groupId>
     <artifactId>release-plugin-test</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <project.git.user>zagor4e</project.git.user>
         <project.git.path>release-plugin-test</project.git.path>
     </properties>
 
+    <scm>
+        <developerConnection>scm:git:ssh://${project.git.user}@git.minervanetworks.com:29418/${project.git.path}.git</developerConnection>
+    </scm>
 
-
-  <scm>
-    <tag>release-plugin-test-1.0</tag>
-  </scm>
 </project>
