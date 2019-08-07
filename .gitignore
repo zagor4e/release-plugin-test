@@ -1,0 +1,9 @@
+.idea
+.project
+bin
+**/npm-debug.log
+**/*.class
+**/.project
+**/.classpath
+**/.settings/
+*.iml
